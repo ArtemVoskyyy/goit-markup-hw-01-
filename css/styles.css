@@ -3,7 +3,10 @@ body {
   color: #434455;
   background-color: #fff;
 }
-
+.header-main {
+  width: 1440px;
+  height: 72px;
+}
 /* Logo header properties */
 .header-logo {
   color: #4d5ae5;
@@ -30,8 +33,14 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
   text-decoration: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
 }
 .menu-nav:hover {
+  color: #404bbf;
+}
+.menu-nav:focus {
   color: #404bbf;
 }
 .menu-nav:active {
@@ -124,6 +133,7 @@ body {
 .description-item {
   display: flex;
   flex-direction: row;
+  background-color: #fff;
 }
 /* Description-list-properties */
 .description-main {
@@ -132,7 +142,6 @@ body {
   height: 104px;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
 }
 /* Description-list and text-heading properties */
 .description-heading {
@@ -259,15 +268,25 @@ body {
   letter-spacing: 0.32px;
 } /* Footer logo properties */
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+.text-link {
+  color: #f4f4fd;
+  font-family: Raleway sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 /* Footers properties */
 .footer-end {
