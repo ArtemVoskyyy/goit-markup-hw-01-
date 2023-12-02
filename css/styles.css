@@ -1,32 +1,33 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
+  background-color: #fff;
 }
 
 /* Logo header properties */
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height:  116.667% 
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 /* Logo  Header Main Part */
 .main-text-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 /* Menu Header Properties */
 .menu-nav {
-  color: #434455;
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height:  150% ;
+  line-height: 150%;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
@@ -43,7 +44,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height:  150%;
+  line-height: 150%;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
@@ -84,7 +85,7 @@ body {
   letter-spacing: 1.12px;
   width: 496px;
   height: 120px;
-  align-self: center;
+  text-align: center;
 }
 /* Main Button */
 .main-button {
@@ -92,7 +93,7 @@ body {
   cursor: pointer;
 
   /* Button Text */
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -108,6 +109,9 @@ body {
 }
 /* Button Hover */
 .main-button:hover {
+  background-color: #404bbf;
+}
+.main-button:focus {
   background-color: #404bbf;
 }
 /* Description Strenghts */
@@ -128,6 +132,7 @@ body {
   height: 104px;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 /* Description-list and text-heading properties */
 .description-heading {
@@ -147,7 +152,7 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
-}/* Team member description */
+} /* Team member description */
 .description-team {
   display: flex;
   flex-direction: column;
@@ -214,16 +219,6 @@ body {
   flex-direction: column;
   text-decoration: none;
   align-items: center;
-} /* Devided in 2 parts by 3 boxes each */
-.portfolio-1 {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-}
-.portfolio-2 {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
 }
 /* Portfolio Heading properties */
 .portfolio-heading-item {
@@ -262,7 +257,7 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
-}/* Footer logo properties */
+} /* Footer logo properties */
 .footer-logo {
   color: #f4f4fd;
   font-family: Raleway;
